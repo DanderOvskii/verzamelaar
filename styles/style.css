@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.spacing{
+    height: 10vh;
+    width: 100%;
+
+}
+
+
+.main{
+    height: 90vh;
+    width: 100%;
+    
+}
+.select{
+    width: 100%;
+    height: 30vh;
+    overflow: auto;
+    white-space: nowrap;
+    box-shadow: inset 0px 0px 21px 12px rgba(0,0,0,0.23);
+}
+.vakje{
+    display: inline-block;
+    height: 20vh;
+    width: 20vh;
+    margin: 20px;
+}
+.vakje img{
+    display: inline-block;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 40px;
+}
+.vakje p{
+    text-align: center;
+}
+.view{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.images{
+    height: 59vh;
+    width: 50%;
+    position: relative;
+    background-color: rgb(204, 204, 204);
+}
+
+.info{
+    height: 59vh;
+    width: 50%;
+    position: relative;
+    background-color: rgb(204, 204, 204);
+}
+
+.titel{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 10vh;
+    transform: translate(0%, -50%);
+   
+}
+
+.plaatje{
+    height: 40vh;
+    margin: 0;
+    position: absolute;
+    top:10vh ;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    box-shadow: -42px 38px 5px 4px rgba(0,0,0,0.23);
+}
+
+.lijst{
+    position: absolute;
+    top: 20vh;
+    transform: translate(0%, -50%);
+    list-style-type: none;
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+}
+.knoppie{
+    position: absolute;
+    bottom: 10vh;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+}
